@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "528314290383",
+    "firebase_url": "https://rain-weather-app.firebaseio.com",
+    "project_id": "rain-weather-app",
+    "storage_bucket": "rain-weather-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528314290383:android:065a3241fc0a2e28dae7ba",
+        "android_client_info": {
+          "package_name": "com.rain.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528314290383-sqjhevn93mpun9f3eg492de4m5mum0k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmpy6M-g6kmt1suty8D9EyIBE3TW2e1aY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528314290383-sqjhevn93mpun9f3eg492de4m5mum0k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

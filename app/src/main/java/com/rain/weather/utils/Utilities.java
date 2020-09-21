@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Utilities {
@@ -75,10 +76,9 @@ public class Utilities {
     /**
      * get dat of the week from date
      */
-    public static String getDay(String date) {
-        SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
-        Date d = new Date(); // returns now
-        return sdf.format(d.getDay());
+    public static String getDay() {
+        LocalDate date = LocalDate.now();
+        return date.getDayOfWeek().name();
     }
 
 

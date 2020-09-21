@@ -22,6 +22,6 @@ class WLocation  (
         val utcOffset: String
 ){
         fun getDayOfWeek(): String{
-                return Utilities.getDay(localtime)
+                return Utilities.getDay()
         }
 }
